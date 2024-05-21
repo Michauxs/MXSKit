@@ -7,6 +7,7 @@
 //
 
 #import "MXSViewController.h"
+#import <MXSKit.h>
 
 @interface MXSViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [MXSSingletonCmd.device sendNavHeight];
+    
 }
 
 - (void)didReceiveMemoryWarning
