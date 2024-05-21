@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MXSKit_Example' do
+  pod 'MXSKit', :path => '../'
+
+  target 'MXSKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
