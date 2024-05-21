@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -91,7 +91,7 @@
 		4885FF9119FEDBCE1C3290A048FDEFC2 /* UIImage+MXSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MXSExtension.m"; sourceTree = "<group>"; };
 		48B5C911DB9DCECC3AC78B620A210AAF /* NSObject+MXSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MXSExtension.m"; sourceTree = "<group>"; };
 		4BCF9B07F640A238FD43ED2A482B49F3 /* UILabel+MXSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MXSExtension.m"; sourceTree = "<group>"; };
-		4C1BE59F2F7C16C1E1586B68018EDEE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4C1BE59F2F7C16C1E1586B68018EDEE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E33E2C5F4D9F7BEA2F3A3DDAAD9244B /* MXSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXSKit.debug.xcconfig; sourceTree = "<group>"; };
 		4E424EB146571F03C90737DB44A1ACA8 /* MXSViewFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXSViewFactory.m; sourceTree = "<group>"; };
 		4EC92D4D470A17EC19C2D992127A0A8A /* Pods-MXSKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXSKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 		8C0AA8A6FA9B2B49F02385856B521CC6 /* MXSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXSKit-prefix.pch"; sourceTree = "<group>"; };
 		8CE558A09D3469A199158BE0EE1742A6 /* MXSSingletonCmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXSSingletonCmd.h; sourceTree = "<group>"; };
 		9076D204C1957BDBECFA7E27A12F892C /* UIView+MXSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MXSExtension.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A224B7EB7067CE15D93B898EF314D4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A224B7EB7067CE15D93B898EF314D4A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A75F83CCB9B409668D2B7A79EF72242D /* NSString+MXSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MXSExtension.h"; sourceTree = "<group>"; };
 		AA6C70597557CCCC9AC7D1C0827339A6 /* Pods-MXSKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXSKit_Tests.modulemap"; sourceTree = "<group>"; };
 		BD06BB7D320F56CD394BD213A6FA58B0 /* NSDate+MXSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MXSExtension.m"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		D7C6E26161E7A97003E894912E5D3158 /* MXSKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXSKit.h; path = MXSKit/Classes/MXSKit.h; sourceTree = "<group>"; };
 		DEEDF3B7F01E6FA15F6AA734AFD1DDDD /* Pods-MXSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF68839E69B59966E55405CE0697593 /* Pods-MXSKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXSKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E53370D82EC86CDFF071C88F2285BDDF /* MXSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MXSKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E53370D82EC86CDFF071C88F2285BDDF /* MXSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MXSKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E721B03FD3A8A84BC71A9C69F0D081B0 /* NSString+MXSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+MXSExtension.m"; sourceTree = "<group>"; };
 		E915B00D58F70A219028FF8C0DEA4FF1 /* Pods-MXSKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXSKit_Example-dummy.m"; sourceTree = "<group>"; };
 		E9C8B1B7AA7E0D3B90299FF3AE778A66 /* MXSDelegateFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXSDelegateFactory.m; sourceTree = "<group>"; };
@@ -236,7 +236,6 @@
 				8108AFF25ABEE3E928B3E8EEF6F10A12 /* MXSVCFactory.h */,
 				1CAEB713BDF99D995D91E6769599F041 /* MXSVCFactory.m */,
 			);
-			name = ControllerFactory;
 			path = ControllerFactory;
 			sourceTree = "<group>";
 		};
@@ -296,7 +295,6 @@
 				D2E420CAFEE280C5CBB8147ED9F1F1B1 /* MXSDelegateFactory.h */,
 				E9C8B1B7AA7E0D3B90299FF3AE778A66 /* MXSDelegateFactory.m */,
 			);
-			name = DelegateFactory;
 			path = DelegateFactory;
 			sourceTree = "<group>";
 		};
@@ -337,7 +335,6 @@
 				0E09B43464C611EB805D7ECE9480EDED /* MXSViewFactory.h */,
 				4E424EB146571F03C90737DB44A1ACA8 /* MXSViewFactory.m */,
 			);
-			name = ViewFactory;
 			path = ViewFactory;
 			sourceTree = "<group>";
 		};
@@ -493,7 +490,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -613,7 +610,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MXSKit_Example/Pods-MXSKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MXSKit_Example/Pods-MXSKit_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -647,7 +648,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MXSKit_Example/Pods-MXSKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MXSKit_Example/Pods-MXSKit_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -680,7 +685,11 @@
 				INFOPLIST_FILE = "Target Support Files/MXSKit/MXSKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/MXSKit/MXSKit.modulemap";
 				PRODUCT_MODULE_NAME = MXSKit;
 				PRODUCT_NAME = MXSKit;
@@ -773,7 +782,11 @@
 				INFOPLIST_FILE = "Target Support Files/MXSKit/MXSKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/MXSKit/MXSKit.modulemap";
 				PRODUCT_MODULE_NAME = MXSKit;
 				PRODUCT_NAME = MXSKit;
@@ -805,7 +818,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MXSKit_Tests/Pods-MXSKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MXSKit_Tests/Pods-MXSKit_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -839,7 +856,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MXSKit_Tests/Pods-MXSKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MXSKit_Tests/Pods-MXSKit_Tests.modulemap";
 				OTHER_LDFLAGS = "";
