@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MXSKit'
-  s.version          = '0.1.0'
-  s.summary          = 'MXSKit是一个套装工具，包含了：\n1.常用UIKit组件的扩展-快速创建和设置常用属性；\n2.一个单例管理类；\n3.映射创建VC、View的工厂；'
+  s.version          = '0.1.1'
+  s.summary          = 'MXSKit是一个包含了常用UIKit组件的扩展工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
