@@ -55,7 +55,7 @@
     }
     
     if (title) {
-        UILabel *titleLabel = [UILabel makeWithText:title textColor:UIColor.black fontSize:314 textAlignment:0];
+        UILabel *titleLabel = [UILabel makeWithText:title textColor:[UIColor black] fontSize:314 textAlignment:0];
         [field addSubview:titleLabel];
         titleLabel.frame = CGRectMake(0, 0, 200, 44);
     }
