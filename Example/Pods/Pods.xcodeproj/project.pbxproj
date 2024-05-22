@@ -79,7 +79,7 @@
 		19CE45DA47D6154F5D7805B6404062A2 /* Pods-MXSKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXSKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		1A6FA8BE52CC2C862DD184607C90AD02 /* UILabel+MXSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+MXSExtension.h"; sourceTree = "<group>"; };
 		1CAEB713BDF99D995D91E6769599F041 /* MXSVCFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXSVCFactory.m; sourceTree = "<group>"; };
-		2525287B81096E370A786AD49EFA588F /* Pods-MXSKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MXSKit_Example"; path = Pods_MXSKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2525287B81096E370A786AD49EFA588F /* Pods_MXSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXSKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		322A591CC189CA89A677D4BA311BF80F /* UIButton+MXSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+MXSExtension.h"; sourceTree = "<group>"; };
 		3506BCD7593C8F2C37B82BE9A8A60056 /* NSDictionary+MXSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MXSExtension.h"; sourceTree = "<group>"; };
 		392B4E7FEB605BFB4A07B390D2135793 /* MXSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXSKit.modulemap; sourceTree = "<group>"; };
@@ -351,7 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8BC865DE1E340FA412776AB841BAE0 /* MXSKit.framework */,
-				2525287B81096E370A786AD49EFA588F /* Pods-MXSKit_Example */,
+				2525287B81096E370A786AD49EFA588F /* Pods_MXSKit_Example.framework */,
 				F919D379D40B3742410CFD7701CD6DD9 /* Pods-MXSKit_Tests */,
 			);
 			name = Products;
@@ -477,7 +477,7 @@
 			);
 			name = "Pods-MXSKit_Example";
 			productName = Pods_MXSKit_Example;
-			productReference = 2525287B81096E370A786AD49EFA588F /* Pods-MXSKit_Example */;
+			productReference = 2525287B81096E370A786AD49EFA588F /* Pods_MXSKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -609,7 +609,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MXSKit_Example/Pods-MXSKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -647,7 +647,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MXSKit_Example/Pods-MXSKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
