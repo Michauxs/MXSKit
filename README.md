@@ -7,6 +7,11 @@
 
 ## Example
 
+MXSKit是一个套装工具，包含了：
+1.常用UIKit组件的扩展-快速创建和设置常用属性；
+2.一个单例管理类；
+3.映射创建VC、View的工厂；
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
