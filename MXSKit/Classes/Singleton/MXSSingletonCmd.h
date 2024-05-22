@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MXSSingletonCmd : NSObject
 
++ (MXSSingletonCmd*)shared;
+@property (nonatomic, strong) NSDateFormatter *defaultDateFormatter;
+
+
 @property (nonatomic, strong) MXSDeviceCmd *deviceCmd;
 + (MXSDeviceCmd*)device;
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -121,7 +121,7 @@
 		C37B9DB512F216B2E9E7E5D6AF849DD0 /* MXSSingletonCmd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXSSingletonCmd.m; sourceTree = "<group>"; };
 		CC9C2E64C5B0C0DDB7F37F7CF273C6D7 /* MXSKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXSKit.release.xcconfig; sourceTree = "<group>"; };
 		CCCA5EC68CD074941953630A473B7B70 /* Pods-MXSKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXSKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE8BC865DE1E340FA412776AB841BAE0 /* MXSKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXSKit; path = MXSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8BC865DE1E340FA412776AB841BAE0 /* MXSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CF66F5320B8C8FF12CBE3A0DF6CAA4 /* NSDictionary+MXSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MXSExtension.m"; sourceTree = "<group>"; };
 		D2E420CAFEE280C5CBB8147ED9F1F1B1 /* MXSDelegateFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXSDelegateFactory.h; sourceTree = "<group>"; };
 		D574363D19D0E62F7B31A79EFF34FEEF /* MXSDeviceCmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXSDeviceCmd.h; sourceTree = "<group>"; };
@@ -350,7 +350,7 @@
 		C19E55F570AEB7C73ACFC0B42EE40318 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE8BC865DE1E340FA412776AB841BAE0 /* MXSKit */,
+				CE8BC865DE1E340FA412776AB841BAE0 /* MXSKit.framework */,
 				2525287B81096E370A786AD49EFA588F /* Pods-MXSKit_Example */,
 				F919D379D40B3742410CFD7701CD6DD9 /* Pods-MXSKit_Tests */,
 			);
@@ -458,7 +458,7 @@
 			);
 			name = MXSKit;
 			productName = MXSKit;
-			productReference = CE8BC865DE1E340FA412776AB841BAE0 /* MXSKit */;
+			productReference = CE8BC865DE1E340FA412776AB841BAE0 /* MXSKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A584F8CDBF9B84BFABA8ACEF195BB5E2 /* Pods-MXSKit_Example */ = {
@@ -490,7 +490,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -684,7 +684,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MXSKit/MXSKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MXSKit/MXSKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -781,7 +781,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MXSKit/MXSKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MXSKit/MXSKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

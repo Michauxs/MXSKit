@@ -1,6 +1,7 @@
 
 
 #import <UIKit/UIKit.h>
+#import "UIColor+MXSExtension.h"
 
 @interface UIImage (MXSExtension)
 

@@ -1,6 +1,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import "MXSSingletonCmd.h"
 
 @interface NSDate (MXSExtension)
 
