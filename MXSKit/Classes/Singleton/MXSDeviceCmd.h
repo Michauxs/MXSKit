@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat StatusBarH;
 @property (nonatomic, assign) CGFloat HomeIndicatorH;
 
-- (void)sendNavHeight;
+- (void)sendStatusHeight;
 
 @end
 

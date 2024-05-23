@@ -34,7 +34,7 @@
 }
 
 
-- (void)sendNavHeight {
+- (void)sendStatusHeight {
     NSLog(@"statusBar height: %.2f", _StatusBarH);
 }
 
